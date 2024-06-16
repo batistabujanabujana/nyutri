@@ -19,12 +19,15 @@ const Users = db.define(
       type: DataTypes.STRING,
     },
     gender: {
-      type: DataTypes.STRING,
+      type: DataTypes.BOOLEAN,
     },
     tinggibadan: {
       type: DataTypes.STRING,
     },
     beratbadan: {
+      type: DataTypes.STRING,
+    },  
+    aktivitas: {
       type: DataTypes.STRING,
     },
     refresh_token: {
